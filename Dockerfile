@@ -1,5 +1,5 @@
 # Node.js runtime = base image
-FROM node:20.11.1-bookworm-slim
+FROM node:20.20.0-bookworm-slim
 
 RUN apk add curl
 WORKDIR /newdir
